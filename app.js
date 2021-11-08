@@ -3,7 +3,7 @@ console.log(profileDataArgs);
 
 const generatePage = (userName, githubName) => {
  return `
- Name: ${userName}
- Github: ${githubName}
+  Name: ${userName}
+  Github: ${githubName}
  `;
  console.log(generatePage('Jane', 'janehub'));
